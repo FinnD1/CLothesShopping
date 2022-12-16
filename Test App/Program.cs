@@ -16,7 +16,9 @@ namespace Test_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ThanhVien());
+            //Application.Run(new GiaoDienChinh());
+            //Application.Run(new DangNhap());
+            Application.Run(new KhachHang());
         }
     }
 }
