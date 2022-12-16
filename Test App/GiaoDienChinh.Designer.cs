@@ -29,59 +29,59 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GiaoDienChinh));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnKhachHang = new System.Windows.Forms.Button();
+            this.btnThanhVien = new System.Windows.Forms.Button();
+            this.btnHoaDon = new System.Windows.Forms.Button();
+            this.btnQuanAo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnKhachHang
             // 
-            this.button1.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(370, 300);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(328, 117);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "     Khách &Hàng";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnKhachHang.Image")));
+            this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachHang.Location = new System.Drawing.Point(370, 300);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Size = new System.Drawing.Size(328, 117);
+            this.btnKhachHang.TabIndex = 0;
+            this.btnKhachHang.Text = "     Khách &Hàng";
+            this.btnKhachHang.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnThanhVien
             // 
-            this.button2.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(370, 482);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(328, 114);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "     &T&hành Viên";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnThanhVien.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThanhVien.Image = ((System.Drawing.Image)(resources.GetObject("btnThanhVien.Image")));
+            this.btnThanhVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThanhVien.Location = new System.Drawing.Point(370, 482);
+            this.btnThanhVien.Name = "btnThanhVien";
+            this.btnThanhVien.Size = new System.Drawing.Size(328, 114);
+            this.btnThanhVien.TabIndex = 0;
+            this.btnThanhVien.Text = "     &T&hành Viên";
+            this.btnThanhVien.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnHoaDon
             // 
-            this.button3.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(916, 300);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(330, 117);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "     &Hoá Đơn";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnHoaDon.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHoaDon.Image = ((System.Drawing.Image)(resources.GetObject("btnHoaDon.Image")));
+            this.btnHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHoaDon.Location = new System.Drawing.Point(916, 300);
+            this.btnHoaDon.Name = "btnHoaDon";
+            this.btnHoaDon.Size = new System.Drawing.Size(330, 117);
+            this.btnHoaDon.TabIndex = 0;
+            this.btnHoaDon.Text = "     &Hoá Đơn";
+            this.btnHoaDon.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnQuanAo
             // 
-            this.button4.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(916, 482);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(330, 114);
-            this.button4.TabIndex = 0;
-            this.button4.Text = " Quần &Áo";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnQuanAo.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanAo.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanAo.Image")));
+            this.btnQuanAo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQuanAo.Location = new System.Drawing.Point(916, 482);
+            this.btnQuanAo.Name = "btnQuanAo";
+            this.btnQuanAo.Size = new System.Drawing.Size(330, 114);
+            this.btnQuanAo.TabIndex = 0;
+            this.btnQuanAo.Text = " Quần &Áo";
+            this.btnQuanAo.UseVisualStyleBackColor = true;
             // 
             // GiaoDienChinh
             // 
@@ -91,10 +91,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1544, 884);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnThanhVien);
+            this.Controls.Add(this.btnQuanAo);
+            this.Controls.Add(this.btnHoaDon);
+            this.Controls.Add(this.btnKhachHang);
             this.Name = "GiaoDienChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GiaoDienChinh";
@@ -104,9 +104,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnKhachHang;
+        private System.Windows.Forms.Button btnThanhVien;
+        private System.Windows.Forms.Button btnHoaDon;
+        private System.Windows.Forms.Button btnQuanAo;
     }
 }

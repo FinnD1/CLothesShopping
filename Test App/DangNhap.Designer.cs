@@ -33,12 +33,12 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.imageList3 = new System.Windows.Forms.ImageList(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -60,32 +60,32 @@
             this.imageList3.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // button2
+            // btnCancel
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Font = new System.Drawing.Font("Cascadia Mono", 14F);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(26)))), ((int)(((byte)(70)))));
-            this.button2.Location = new System.Drawing.Point(453, 535);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 68);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "&Cancel";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCancel.BackColor = System.Drawing.Color.Transparent;
+            this.btnCancel.Font = new System.Drawing.Font("Cascadia Mono", 14F);
+            this.btnCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(26)))), ((int)(((byte)(70)))));
+            this.btnCancel.Location = new System.Drawing.Point(453, 535);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(152, 68);
+            this.btnCancel.TabIndex = 10;
+            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnLogin
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Font = new System.Drawing.Font("Cascadia Mono", 14F);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(26)))), ((int)(((byte)(70)))));
-            this.button1.Location = new System.Drawing.Point(225, 535);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 68);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "&Login";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLogin.AutoSize = true;
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.Font = new System.Drawing.Font("Cascadia Mono", 14F);
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(26)))), ((int)(((byte)(70)))));
+            this.btnLogin.Location = new System.Drawing.Point(225, 535);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(152, 68);
+            this.btnLogin.TabIndex = 11;
+            this.btnLogin.Text = "&Login";
+            this.btnLogin.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -119,26 +119,26 @@
             this.label2.Text = "    Username ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox2
+            // txtMatKhau
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox2.Font = new System.Drawing.Font("Cascadia Mono", 14F);
-            this.textBox2.Location = new System.Drawing.Point(390, 399);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(269, 40);
-            this.textBox2.TabIndex = 6;
+            this.txtMatKhau.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtMatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMatKhau.Font = new System.Drawing.Font("Cascadia Mono", 14F);
+            this.txtMatKhau.Location = new System.Drawing.Point(390, 399);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.PasswordChar = '*';
+            this.txtMatKhau.Size = new System.Drawing.Size(269, 40);
+            this.txtMatKhau.TabIndex = 6;
             // 
-            // textBox1
+            // txtTaiKhoan
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox1.Font = new System.Drawing.Font("Cascadia Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(390, 307);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(269, 40);
-            this.textBox1.TabIndex = 7;
+            this.txtTaiKhoan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtTaiKhoan.Font = new System.Drawing.Font("Cascadia Mono", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTaiKhoan.ForeColor = System.Drawing.Color.Black;
+            this.txtTaiKhoan.Location = new System.Drawing.Point(390, 307);
+            this.txtTaiKhoan.Name = "txtTaiKhoan";
+            this.txtTaiKhoan.Size = new System.Drawing.Size(269, 40);
+            this.txtTaiKhoan.TabIndex = 7;
             // 
             // label1
             // 
@@ -161,12 +161,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1544, 884);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.label1);
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -181,12 +181,12 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.ImageList imageList3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.Label label1;
     }
 }
