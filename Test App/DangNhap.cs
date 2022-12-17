@@ -16,5 +16,16 @@ namespace Test_App
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+        
+             //MoKetNoi();
+
+            GiaoDienChinh khachHang = new GiaoDienChinh();
+            this.Hide();
+            khachHang.ShowDialog();
+        
+        }
     }
 }

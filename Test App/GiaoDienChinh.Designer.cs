@@ -46,6 +46,7 @@
             this.btnKhachHang.TabIndex = 0;
             this.btnKhachHang.Text = "     Khách &Hàng";
             this.btnKhachHang.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
             // btnThanhVien
             // 
@@ -58,6 +59,7 @@
             this.btnThanhVien.TabIndex = 0;
             this.btnThanhVien.Text = "     &T&hành Viên";
             this.btnThanhVien.UseVisualStyleBackColor = true;
+            this.btnThanhVien.Click += new System.EventHandler(this.btnThanhVien_Click);
             // 
             // btnHoaDon
             // 
@@ -82,6 +84,7 @@
             this.btnQuanAo.TabIndex = 0;
             this.btnQuanAo.Text = " Quần &Áo";
             this.btnQuanAo.UseVisualStyleBackColor = true;
+            this.btnQuanAo.Click += new System.EventHandler(this.btnQuanAo_Click);
             // 
             // GiaoDienChinh
             // 
