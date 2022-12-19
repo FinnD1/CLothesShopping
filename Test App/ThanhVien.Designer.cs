@@ -40,6 +40,7 @@
             this.tkMaTV = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.mtbSDT = new System.Windows.Forms.MaskedTextBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
@@ -59,7 +60,6 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
-            this.mtbSDT = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -194,6 +194,14 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thong tin chi tiết";
+            // 
+            // mtbSDT
+            // 
+            this.mtbSDT.Location = new System.Drawing.Point(236, 317);
+            this.mtbSDT.Mask = "(000) 000-0000 ";
+            this.mtbSDT.Name = "mtbSDT";
+            this.mtbSDT.Size = new System.Drawing.Size(190, 26);
+            this.mtbSDT.TabIndex = 5;
             // 
             // dtpNgaySinh
             // 
@@ -373,14 +381,7 @@
             this.btnTimKiem.TabIndex = 0;
             this.btnTimKiem.Text = "Tìm &Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // mtbSDT
-            // 
-            this.mtbSDT.Location = new System.Drawing.Point(236, 317);
-            this.mtbSDT.Mask = "(000) 000-0000 ";
-            this.mtbSDT.Name = "mtbSDT";
-            this.mtbSDT.Size = new System.Drawing.Size(190, 26);
-            this.mtbSDT.TabIndex = 5;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // ThanhVien
             // 
