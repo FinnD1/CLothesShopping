@@ -80,7 +80,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1544, 91);
-            this.panel1.TabIndex = 2;
+            this.panel1.TabIndex = 0;
             // 
             // label1
             // 
@@ -134,7 +134,7 @@
             this.btnThem.Location = new System.Drawing.Point(374, 64);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(145, 48);
-            this.btnThem.TabIndex = 2;
+            this.btnThem.TabIndex = 1;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
@@ -144,7 +144,7 @@
             this.btnXoa.Location = new System.Drawing.Point(586, 64);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(145, 48);
-            this.btnXoa.TabIndex = 1;
+            this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -200,7 +200,7 @@
             this.cbGioiTinh.Location = new System.Drawing.Point(209, 143);
             this.cbGioiTinh.Name = "cbGioiTinh";
             this.cbGioiTinh.Size = new System.Drawing.Size(258, 28);
-            this.cbGioiTinh.TabIndex = 6;
+            this.cbGioiTinh.TabIndex = 2;
             // 
             // mtbSDT
             // 
@@ -208,7 +208,7 @@
             this.mtbSDT.Mask = "(999) 000-0000";
             this.mtbSDT.Name = "mtbSDT";
             this.mtbSDT.Size = new System.Drawing.Size(258, 26);
-            this.mtbSDT.TabIndex = 5;
+            this.mtbSDT.TabIndex = 4;
             // 
             // dtpNgaySinh
             // 
@@ -216,7 +216,7 @@
             this.dtpNgaySinh.Location = new System.Drawing.Point(209, 309);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(258, 26);
-            this.dtpNgaySinh.TabIndex = 4;
+            this.dtpNgaySinh.TabIndex = 5;
             // 
             // btnLuu
             // 
@@ -224,7 +224,7 @@
             this.btnLuu.Location = new System.Drawing.Point(93, 394);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(107, 46);
-            this.btnLuu.TabIndex = 2;
+            this.btnLuu.TabIndex = 6;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
@@ -254,7 +254,7 @@
             this.txtDiaChi.Location = new System.Drawing.Point(209, 198);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(258, 26);
-            this.txtDiaChi.TabIndex = 1;
+            this.txtDiaChi.TabIndex = 3;
             // 
             // label7
             // 
@@ -298,7 +298,8 @@
             this.txtMaKH.Location = new System.Drawing.Point(209, 42);
             this.txtMaKH.Name = "txtMaKH";
             this.txtMaKH.Size = new System.Drawing.Size(258, 26);
-            this.txtMaKH.TabIndex = 1;
+            this.txtMaKH.TabIndex = 0;
+            this.txtMaKH.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtMaKH_KeyUp);
             // 
             // label4
             // 
@@ -336,7 +337,7 @@
             this.dgvDSKH.RowHeadersWidth = 62;
             this.dgvDSKH.RowTemplate.Height = 28;
             this.dgvDSKH.Size = new System.Drawing.Size(1000, 558);
-            this.dgvDSKH.TabIndex = 5;
+            this.dgvDSKH.TabIndex = 0;
             this.dgvDSKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSKH_CellClick);
             // 
             // MaKH
@@ -397,7 +398,7 @@
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(1000, 107);
-            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm:";
             // 
@@ -426,7 +427,7 @@
             this.txtTkMaKH.Location = new System.Drawing.Point(161, 37);
             this.txtTkMaKH.Name = "txtTkMaKH";
             this.txtTkMaKH.Size = new System.Drawing.Size(170, 28);
-            this.txtTkMaKH.TabIndex = 1;
+            this.txtTkMaKH.TabIndex = 0;
             // 
             // label2
             // 

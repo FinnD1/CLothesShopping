@@ -222,7 +222,7 @@ namespace Test_App
                     HienThiDSKH();
 
                     HuyKH();
-                    btnSua.Enabled = false;
+                    //btnSua.Enabled = false;
                     groupBox1.Enabled = false;
                 }
                 else
@@ -300,6 +300,12 @@ namespace Test_App
             {
                 btnXoa.Enabled = false;
             }    
+        }
+
+        private void txtMaKH_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                SendKeys.Send("{TAB}");
         }
     }
 }
