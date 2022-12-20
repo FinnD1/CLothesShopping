@@ -60,6 +60,12 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
+            this.MaTV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenTV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -115,6 +121,13 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaTV,
+            this.TenTV,
+            this.GioiTinh,
+            this.DiaChi,
+            this.SoDT,
+            this.NgaySinh});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 22);
             this.dataGridView1.Name = "dataGridView1";
@@ -383,6 +396,48 @@
             this.btnTimKiem.UseVisualStyleBackColor = true;
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
+            // MaTV
+            // 
+            this.MaTV.HeaderText = "Mã Thành Viên";
+            this.MaTV.MinimumWidth = 8;
+            this.MaTV.Name = "MaTV";
+            this.MaTV.Width = 150;
+            // 
+            // TenTV
+            // 
+            this.TenTV.HeaderText = "Tên Thành Viên";
+            this.TenTV.MinimumWidth = 8;
+            this.TenTV.Name = "TenTV";
+            this.TenTV.Width = 150;
+            // 
+            // GioiTinh
+            // 
+            this.GioiTinh.HeaderText = "Giới Tính";
+            this.GioiTinh.MinimumWidth = 8;
+            this.GioiTinh.Name = "GioiTinh";
+            this.GioiTinh.Width = 150;
+            // 
+            // DiaChi
+            // 
+            this.DiaChi.HeaderText = "DiaChi";
+            this.DiaChi.MinimumWidth = 8;
+            this.DiaChi.Name = "DiaChi";
+            this.DiaChi.Width = 150;
+            // 
+            // SoDT
+            // 
+            this.SoDT.HeaderText = "Số Điện Thoại";
+            this.SoDT.MinimumWidth = 8;
+            this.SoDT.Name = "SoDT";
+            this.SoDT.Width = 150;
+            // 
+            // NgaySinh
+            // 
+            this.NgaySinh.HeaderText = "NgaySinh";
+            this.NgaySinh.MinimumWidth = 8;
+            this.NgaySinh.Name = "NgaySinh";
+            this.NgaySinh.Width = 150;
+            // 
             // ThanhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -443,5 +498,11 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
         private System.Windows.Forms.MaskedTextBox mtbSDT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaTV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenTV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoDT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
     }
 }

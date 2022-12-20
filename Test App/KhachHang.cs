@@ -19,7 +19,7 @@ namespace Test_App
         }
 
         //ChuoiKetNoi
-        string strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\BTL_C#\CLothesShopping\CodeKH\Test App\QuanLyQuanAo.mdf"";Integrated Security=True";
+        string strCon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\.Net\test UI clothes\Test App\Test App\QuanLyShop.mdf;Integrated Security = True";
 
         //Doi tuong ket noi
         SqlConnection sqlCon = null;

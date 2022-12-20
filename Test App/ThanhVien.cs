@@ -75,7 +75,7 @@ namespace Test_App
             }
             else if (tkMatv == "" && tkTentv != "")
             {
-                TimKiemTheoTen(tkMatv);
+                //TimKiemTheoTen(tkMatv);
             }
             else if (tkMatv != "" && tkTentv != "")
             {
