@@ -29,8 +29,6 @@ namespace Test_App
             if (sqlCon == null)
             {
                 sqlCon = new SqlConnection(strCon);
-                MessageBox.Show("ket noi thanh cong!");
-
             }
             if (sqlCon.State == ConnectionState.Closed)
             {

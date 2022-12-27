@@ -146,13 +146,19 @@
     <Content Include="ImageIcons\1000_F_481872066_NmnTiEpsBTkYMsOAR1gMacOiEv4uwbZO.jpg" />
     <Content Include="ImageIcons\1000_F_485922816_TVKk1P4MUGqQy8FkHKpoY2hQABCtyyLR.jpg" />
     <Content Include="ImageIcons\1000_F_485922849_wThYD5ZA4h0BkO2sKE9WV1MbRtBpTWUR %281%29.jpg" />
+    <Content Include="ImageIcons\15847314_v960-ning-11.jpg" />
+    <Content Include="ImageIcons\16359095_v904-nunny-012.jpg" />
+    <Content Include="ImageIcons\16447966_v960-ning-05.jpg" />
     <Content Include="ImageIcons\bill.png" />
     <Content Include="ImageIcons\clothing.png" />
     <Content Include="ImageIcons\human.png" />
+    <Content Include="ImageIcons\imageDangNhap.jpg" />
     <Content Include="ImageIcons\password.png" />
     <Content Include="ImageIcons\people.png" />
     <Content Include="ImageIcons\search.png" />
     <Content Include="ImageIcons\user %281%29.png" />
+    <Content Include="ImageIcons\vivid-blurred-colorful-background.jpg" />
+    <Content Include="ImageIcons\vivid-blurred-colorful-wallpaper-background.jpg" />
     <Content Include="QuanLyShop.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

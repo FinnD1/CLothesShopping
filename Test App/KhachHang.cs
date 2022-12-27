@@ -268,6 +268,7 @@ namespace Test_App
             txtDiaChi.Text = row["DiaChi"].ToString();
             mtbSDT.Text = row["SDT"].ToString();
 
+
         }
 
         private void XoaKH()
