@@ -56,7 +56,7 @@
             this.btnThanhVien.Location = new System.Drawing.Point(370, 482);
             this.btnThanhVien.Name = "btnThanhVien";
             this.btnThanhVien.Size = new System.Drawing.Size(328, 114);
-            this.btnThanhVien.TabIndex = 0;
+            this.btnThanhVien.TabIndex = 2;
             this.btnThanhVien.Text = "     &T&hành Viên";
             this.btnThanhVien.UseVisualStyleBackColor = true;
             this.btnThanhVien.Click += new System.EventHandler(this.btnThanhVien_Click);
@@ -69,7 +69,7 @@
             this.btnHoaDon.Location = new System.Drawing.Point(916, 300);
             this.btnHoaDon.Name = "btnHoaDon";
             this.btnHoaDon.Size = new System.Drawing.Size(330, 117);
-            this.btnHoaDon.TabIndex = 0;
+            this.btnHoaDon.TabIndex = 1;
             this.btnHoaDon.Text = "     &Hoá Đơn";
             this.btnHoaDon.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +81,7 @@
             this.btnQuanAo.Location = new System.Drawing.Point(916, 482);
             this.btnQuanAo.Name = "btnQuanAo";
             this.btnQuanAo.Size = new System.Drawing.Size(330, 114);
-            this.btnQuanAo.TabIndex = 0;
+            this.btnQuanAo.TabIndex = 3;
             this.btnQuanAo.Text = " Quần &Áo";
             this.btnQuanAo.UseVisualStyleBackColor = true;
             this.btnQuanAo.Click += new System.EventHandler(this.btnQuanAo_Click);

@@ -144,9 +144,7 @@ namespace Test_App
             }
             else if (tkMatv != "" && tkTentv != "")
             {
-                TimKiemTheoMa(tkMatv);
-
-                
+                TimKiemTheoMa(tkMatv);               
             }
         }
 
@@ -262,7 +260,7 @@ namespace Test_App
                 cbGioiTinh.SelectedIndex = 1;
             }
             string[] ns = row["NgaySinh"].ToString().Split('/');
-            //dtpNgaySinh.Value = new DateTime(int.Parse(ns[2].Substring(0, 4)), int.Parse(ns[0]), int.Parse(ns[1]));
+            dtpNgaySinh.Value = new DateTime(int.Parse(ns[2].Substring(0, 4)), int.Parse(ns[0]), int.Parse(ns[1]));
             txtDiaChi.Text = row["DiaChi"].ToString();
             mtbSDT.Text = row["SDT"].ToString();
         }

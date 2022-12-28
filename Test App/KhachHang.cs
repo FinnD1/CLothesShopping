@@ -308,5 +308,13 @@ namespace Test_App
             if (e.KeyCode == Keys.Enter)
                 SendKeys.Send("{TAB}");
         }
+
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Hide();
+            GiaoDienChinh dn = new GiaoDienChinh();
+            dn.ShowDialog();
+        }
     }
 }

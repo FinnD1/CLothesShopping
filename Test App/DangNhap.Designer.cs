@@ -48,7 +48,7 @@
             this.btnCancel.Location = new System.Drawing.Point(453, 535);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(152, 68);
-            this.btnCancel.TabIndex = 10;
+            this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
@@ -62,7 +62,7 @@
             this.btnLogin.Location = new System.Drawing.Point(225, 535);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(152, 68);
-            this.btnLogin.TabIndex = 11;
+            this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "&Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -79,7 +79,7 @@
             this.label3.Location = new System.Drawing.Point(135, 399);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(225, 37);
-            this.label3.TabIndex = 8;
+            this.label3.TabIndex = 2;
             this.label3.Text = "    Password ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -95,7 +95,7 @@
             this.label2.Location = new System.Drawing.Point(135, 307);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(225, 37);
-            this.label2.TabIndex = 9;
+            this.label2.TabIndex = 0;
             this.label2.Text = "    Username ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -108,7 +108,7 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(269, 40);
-            this.txtMatKhau.TabIndex = 6;
+            this.txtMatKhau.TabIndex = 3;
             // 
             // txtTaiKhoan
             // 
@@ -118,7 +118,7 @@
             this.txtTaiKhoan.Location = new System.Drawing.Point(390, 307);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(269, 40);
-            this.txtTaiKhoan.TabIndex = 7;
+            this.txtTaiKhoan.TabIndex = 1;
             // 
             // label1
             // 
