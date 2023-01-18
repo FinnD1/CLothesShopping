@@ -70,5 +70,14 @@ namespace Test_App
             this.Hide();
             quanAo.ShowDialog();
         }
+
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            MoKetNoi();
+
+            HoaDon quanAo = new HoaDon();
+            this.Hide();
+            quanAo.ShowDialog();
+        }
     }
 }

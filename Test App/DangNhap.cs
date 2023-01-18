@@ -66,6 +66,7 @@ namespace Test_App
                 dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
+                    MessageBox.Show("Đăng nhập thành công !", "Form", MessageBoxButtons.OK);
                     dr.Close();
                     this.Hide();
                     GiaoDienChinh khachHang = new GiaoDienChinh();
@@ -75,18 +76,23 @@ namespace Test_App
                 else
                 {
                     dr.Close();
-                    MessageBox.Show("No Account avilable with this username and password ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Không tìm thấy tài khoản hoặc mật khẩu không hợp lệ ! Vui Lòng nhập lại", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
             else
             {
-                MessageBox.Show("Please enter value in all field.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Không được để trống !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             //MoKetNoi();
 
 
 
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

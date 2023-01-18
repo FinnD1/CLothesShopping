@@ -322,5 +322,18 @@ namespace Test_App
             txtLinkAnh.Text = row["Anh"].ToString();
             txtGhiChu.Text = row["GhiChu"].ToString();
         }
+
+        private void btnAnh_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlgOpen = new OpenFileDialog();
+            dlgOpen.Filter = "Bitmap(*.bmp)|*.bmp|JPEG(*.jpg)|*.jpg|GIF(*.gif)|*.gif|All files(*.*)|*.*";
+            dlgOpen.FilterIndex = 2;
+            dlgOpen.Title = "Chọn ảnh minh hoạ cho sản phẩm";
+            if (dlgOpen.ShowDialog() == DialogResult.OK)
+            {
+                picAnh.Image = Image.FromFile(dlgOpen.FileName);
+                txtLinkAnh.Text = dlgOpen.FileName;
+            }
+        }
     }
 }

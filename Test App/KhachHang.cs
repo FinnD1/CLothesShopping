@@ -264,7 +264,7 @@ namespace Test_App
                 cbGioiTinh.SelectedIndex = 1;
             }
             string[] ngaySinh = row["NgaySinh"].ToString().Split('/');
-            dtpNgaySinh.Value = new DateTime(int.Parse(ngaySinh[2].Substring(0, 4)), int.Parse(ngaySinh[0]), int.Parse(ngaySinh[1]));
+            dtpNgaySinh.Value = new DateTime(int.Parse(ngaySinh[2].Substring(0, 4)), int.Parse(ngaySinh[1]), int.Parse(ngaySinh[0]));
             txtDiaChi.Text = row["DiaChi"].ToString();
             mtbSDT.Text = row["SDT"].ToString();
 

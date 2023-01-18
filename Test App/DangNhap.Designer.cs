@@ -51,6 +51,7 @@
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnLogin
             // 
@@ -130,9 +131,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(26)))), ((int)(((byte)(70)))));
             this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(849, 136);
+            this.label1.Size = new System.Drawing.Size(859, 136);
             this.label1.TabIndex = 5;
-            this.label1.Text = "FINND CLOTHES";
+            this.label1.Text = "MEOW CLOTHES";
             // 
             // panel1
             // 

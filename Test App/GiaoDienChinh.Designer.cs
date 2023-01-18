@@ -72,6 +72,7 @@
             this.btnHoaDon.TabIndex = 1;
             this.btnHoaDon.Text = "     &Hoá Đơn";
             this.btnHoaDon.UseVisualStyleBackColor = true;
+            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnQuanAo
             // 
